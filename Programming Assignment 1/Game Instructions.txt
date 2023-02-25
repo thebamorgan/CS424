@@ -1,0 +1,25 @@
+Setup
+
+    1) Remove all exploding kittens from deck and set aside
+
+    2) Remove all of the defuse cards from the deck and deal 1 to each player
+
+    3) Insert the extra defuse cards back into the deck
+
+    4) Shuffle the deck and deal 7 cards face down to each player. Everyone now has a hand of 8 cards (defuse + 7 random cards)
+
+    5) insert n-1 exploding kittens where n is the amount of players
+
+    6) Shuffle deck
+
+    7) Pick a player to go first
+
+Turn
+
+    1) Play a card from hand placing face up on discard pile OR pass
+
+    2) End turn by drawing card from draw pile
+
+Ending Game
+
+    1) Go until only one player hasn't gone boom boom
