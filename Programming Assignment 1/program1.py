@@ -19,6 +19,4 @@
 
 from deck import *
 from players import *
-
-game = deck()
-game.build()
+from cards import *

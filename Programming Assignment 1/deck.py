@@ -1,4 +1,4 @@
-from classes import *
+from cards import *
 from players import *
 import random
 
@@ -12,19 +12,19 @@ class deck:
         play = players()
         self.deck = []
         self.deck += (
-            4 * [cards.attack()] +
-            4 * [cards.favor()] +
-            4 * [cards.shuffle()] +
-            4 * [cards.skip()] +
-            4 * [catCards.cattermelon()] +
-            4 * [catCards.tacocat()] +
-            4 * [catCards.hairyCat()] +
-            4 * [catCards.rainbowCat()] +
-            4 * [catCards.beardCat()] +
-            5 * [cards.seeFuture()] + 
-            5 * [cards.nope()] + 
-           1 (6 - play.count) * [cards.defuse()] + 
-            (play.count - 1) * [cards.explodingKitten()]
+            4 * hairyCat +
+            4 * favor +
+            4 * shuffle +
+            4 * skip +
+            4 * catterMelon +
+            4 * tacoCat +
+            4 * hairyCat +
+            4 * rainbowCat +
+            4 * beardCat +
+            5 * seeFuture + 
+            5 * nope + 
+           1 (6 - play.count) * [defuse] + 
+            (play.count - 1) * [explodingKitten]
         )
 
     def shuffle(self):
